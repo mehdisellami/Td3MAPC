@@ -1,4 +1,6 @@
 package general;
 
-public interface Visitable {
+public interface Visitable extends Visitor {
+
+    void accept(Visitor visitor);
 }

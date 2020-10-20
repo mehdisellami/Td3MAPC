@@ -1,4 +1,7 @@
 package general;
 
-public interface PrePostVisitable {
+public interface PrePostVisitable extends PrePostVisitor {
+
+
+    void accept(PrePostVisitor prePostVisitor) ;
 }
