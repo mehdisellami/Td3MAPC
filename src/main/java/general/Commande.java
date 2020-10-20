@@ -1,4 +1,4 @@
 package general;
 
-public class Commande implements PrePostVisitor,Visitable{
+public class Commande implements PrePostVisitable,Visitable {
 }

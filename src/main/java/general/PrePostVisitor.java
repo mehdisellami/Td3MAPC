@@ -1,4 +1,7 @@
 package general;
 
-public interface PrePostVisitor {
+public interface PrePostVisitor extends AbstractVisitor {
+
+
+
 }

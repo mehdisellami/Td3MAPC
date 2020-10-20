@@ -1,4 +1,4 @@
-package visitor;
+package general;
 
 public interface Visitor extends  AbstractVisitor {
 }
