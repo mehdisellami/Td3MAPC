@@ -36,14 +36,14 @@ public class GroupeClient implements PrePostVisitable,Visitable  {
     }
 
     public void addLigne(String name, Ligne l){
-        new GroupeClient(name);
-        lignes.add(l);
+        new Ligne(name);
+        lignes.add(l.getName());
 
     }
 
     public void addCommande( String name ,Commande co){
-        new GroupeClient(name);
-        commandes.add(co);
+        Client cl = new Client(name);
+        commandes.add(co.getName());
 
     }
 

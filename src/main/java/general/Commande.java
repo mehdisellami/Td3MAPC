@@ -28,6 +28,11 @@ public class Commande implements PrePostVisitable,Visitable {
     @Override
     public void accept(Visitor visitor) {
 
+        for (Ligne l: lignes.values()){
+            accept(visitor);
+
+        }
+
     }
 
 
