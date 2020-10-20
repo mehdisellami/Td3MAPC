@@ -1,4 +1,4 @@
 package general;
 
-public class Client {
+public class Client implements PrePostVisitor,Visitable {
 }

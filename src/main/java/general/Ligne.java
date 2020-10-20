@@ -1,4 +1,4 @@
 package general;
 
-public class Ligne {
+public class Ligne  implements PrePostVisitor,Visitable{
 }

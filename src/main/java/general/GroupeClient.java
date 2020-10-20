@@ -1,4 +1,4 @@
 package general;
 
-public class GroupeClient {
+public class GroupeClient implements PrePostVisitor,Visitable {
 }
