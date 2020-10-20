@@ -15,6 +15,10 @@ public class GroupeClient implements PrePostVisitable,Visitable  {
 
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
     public void accept(PrePostVisitor prePostVisitor) {
 

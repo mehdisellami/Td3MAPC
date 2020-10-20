@@ -9,6 +9,10 @@ public class Ligne  implements PrePostVisitable,Visitable {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
 
 
     public Ligne(String name, int sum) {

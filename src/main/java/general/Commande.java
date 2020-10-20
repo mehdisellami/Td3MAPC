@@ -13,6 +13,10 @@ public class Commande implements PrePostVisitable,Visitable {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
     public void accept(PrePostVisitor prePostVisitor) {
 
